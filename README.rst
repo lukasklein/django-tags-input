@@ -82,6 +82,7 @@ be used.
             'some_app.SomeCreateableKeyword': {
                 'field': 'some_field',
                 'create_missing': True,
+                'default_text': 'Add another SomeCreatableKeyword',
             },
         }
 

@@ -16,6 +16,7 @@ jQuery(document).ready(function($){
         {% if on_add_tag %}onAddTag: {{ on_add_tag }},{% endif %}
         {% if on_remove_tag %}onRemoveTag: {{ on_remove_tag }},{% endif %}
         {% if on_change_tag %}onChangeTag: {{ on_change_tag }},{% endif %}
+        {% if mapping.default_text %}defaultText: '{{ mapping.default_text }}',{% endif %}
         autocomplete_url: '{{ autocomplete_url }}'
     });
 {% block extra_script %}{% endblock %}
